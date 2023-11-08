@@ -17,3 +17,7 @@ print(my_string[:-1])
 
 freq = ['a', 1, 'a', 4, 3, 2, 'a'].count('a')
 print(freq)
+
+ # file add
+with open("my_file.txt", "a") as f:
+   f.write("new text")
