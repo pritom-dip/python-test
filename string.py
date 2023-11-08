@@ -21,3 +21,14 @@ print(freq)
  # file add
 with open("my_file.txt", "a") as f:
    f.write("new text")
+
+
+def isfloat(num):
+    try:
+        float(num)
+        return True
+    except ValueError:
+        return False
+
+print(isfloat('s12'))
+print(isfloat('1.123'))
