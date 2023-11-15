@@ -24,3 +24,16 @@ if(len(str1) == len(str2)):
 
 else:
     print(str1 + " and " + str2 + " are not anagram.")
+
+
+
+
+
+num = 3452
+count = 0
+
+while num != 0:
+    num //= 10
+    count += 1
+
+print("Number of digits: " + str(count))
