@@ -32,3 +32,14 @@ print(b'Easy \xE2\x9C\x85'.decode("utf-8"))
 list_1 = [1, 2, 1, 4, 6]
 
 print(list(set(list_1)))
+
+count = 0
+
+my_string = "Programiz"
+my_char = "r"
+
+for i in my_string:
+    if i == my_char:
+        count += 1
+
+print(count)
