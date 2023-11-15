@@ -28,3 +28,7 @@ my_list = [1, 'a', 32, 'c', 'd', 31]
 print(secrets.choice(my_list))
 
 print(b'Easy \xE2\x9C\x85'.decode("utf-8"))
+
+list_1 = [1, 2, 1, 4, 6]
+
+print(list(set(list_1)))
